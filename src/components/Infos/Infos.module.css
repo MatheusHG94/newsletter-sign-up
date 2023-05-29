@@ -1,0 +1,7 @@
+.Infos {
+    margin: 0 2rem;
+}
+
+.Infos_list {
+    list-style-image: url('assets/images/icon-list.svg');
+}
