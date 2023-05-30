@@ -34,6 +34,8 @@ export default function SignUp() {
       <form
         className={styles.SignUp_form}
         onSubmit={() => navigate('/confirmed')}
+        method='post'
+        action='#'
       >
         <FormInput
           label='Email address'

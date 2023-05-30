@@ -3,10 +3,20 @@
     flex-direction: column;
 }
 
-.FormInput_label {
+.FormInput_header {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: .5rem;
     font-size: .8rem;
     font-weight: var(--font-weight-bold);
+}
+
+.FormInput_label {
+    color: var(--neutral-color-2);
+}
+
+.FormInput_errorMsg {
+    color: var(--primary-color);
 }
 
 .FormInput_input {
@@ -18,4 +28,11 @@
 
     font-family: var(--font-family);
     font-size: var(--font-size-paragraph);
+    letter-spacing: 1px;
+}
+
+.FormInput_input___error {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: hsla(4, 100%, 67%, 0.05);
 }
