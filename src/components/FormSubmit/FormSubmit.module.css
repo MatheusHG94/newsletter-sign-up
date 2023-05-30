@@ -17,3 +17,8 @@
 .Submit:focus {
     background-color: var(--primary-color);
 }
+
+.Submit:disabled {
+    background-color: var(--neutral-color-3);
+    cursor: not-allowed;
+}

@@ -4,10 +4,12 @@ import { ReactComponent as SignUpImg } from 'assets/images/illustration-sign-up-
 import FormInput from 'components/FormInput';
 import FormSubmit from 'components/FormSubmit';
 import { UserContext } from 'commom/context/User';
+import { useNavigate } from 'react-router-dom';
 
 export default function SignUp() {
 
   const { email, setEmail } = useContext(UserContext);
+  const navigate = useNavigate();
 
   return (
     <main className={styles.SignUp}>
@@ -29,7 +31,10 @@ export default function SignUp() {
         </ul>
       </div>
 
-      <form className={styles.SignUp_form}>
+      <form
+        className={styles.SignUp_form}
+        onSubmit={() => navigate('/confirmed')}
+      >
         <FormInput
           label='Email address'
           type='email'
@@ -40,7 +45,7 @@ export default function SignUp() {
 
         <FormSubmit
           value='Subscribe to monthly newsletter'
-          path='/confirmed'
+          disabled={email === ''}
         />
       </form>
     </main>

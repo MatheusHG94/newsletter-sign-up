@@ -14,6 +14,7 @@ export default function FormInput({ label, type, placeholder, value, setValue })
                 placeholder={placeholder}
                 value={value}
                 onChange={e => setValue(e.target.value)}
+                required
             />
         </div>
     )
