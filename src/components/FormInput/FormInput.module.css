@@ -1,0 +1,21 @@
+.Input {
+    display: flex;
+    flex-direction: column;
+}
+
+.Input_label {
+    margin-bottom: .5rem;
+    font-size: .8rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.Input_txtInput {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+
+    border: 1px solid var(--neutral-color-3);
+    border-radius: 8px;
+
+    font-family: var(--font-family);
+    font-size: var(--font-size-paragraph);
+}

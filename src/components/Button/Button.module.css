@@ -1,0 +1,19 @@
+.Button {
+    padding: 1rem;
+    width: 100%;
+
+    border: none;
+    border-radius: 8px;
+    background-color: var(--neutral-color-1);
+
+    color: var(--white);
+    font-family: var(--font-family);
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-bold);
+
+    cursor: pointer;
+}
+
+.Button:focus {
+    background-color: var(--primary-color);
+}

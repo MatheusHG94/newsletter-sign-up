@@ -1,0 +1,17 @@
+.Success {
+    margin: 2rem 1.5rem;
+}
+
+.Success_icon {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.Success h1 {
+    margin-bottom: 1rem;
+    color: var(--neutral-color-1);
+}
+
+.Success p {
+    color: var(--neutral-color-2);
+}

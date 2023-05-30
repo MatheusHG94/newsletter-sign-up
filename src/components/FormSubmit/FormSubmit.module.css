@@ -1,0 +1,19 @@
+.Submit {
+    width: 100%;
+    padding: 1rem;
+
+    border: none;
+    border-radius: 8px;
+    background-color: var(--neutral-color-1);
+
+    color: var(--white);
+    font-family: var(--font-family);
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-bold);
+
+    cursor: pointer;
+}
+
+.Submit:focus {
+    background-color: var(--primary-color);
+}
