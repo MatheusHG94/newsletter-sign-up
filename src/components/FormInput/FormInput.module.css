@@ -1,15 +1,15 @@
-.Input {
+.FormInput {
     display: flex;
     flex-direction: column;
 }
 
-.Input_label {
+.FormInput_label {
     margin-bottom: .5rem;
     font-size: .8rem;
     font-weight: var(--font-weight-bold);
 }
 
-.Input_txtInput {
+.FormInput_input {
     margin-bottom: 1.5rem;
     padding: 1rem;
 

@@ -13,5 +13,6 @@
 }
 
 .Success p {
+    margin-bottom: 8rem;
     color: var(--neutral-color-2);
 }
