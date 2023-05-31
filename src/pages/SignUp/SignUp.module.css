@@ -29,3 +29,45 @@
 .SignUp_form {
     margin: 2.5rem 1.5rem;
 }
+
+@media screen and (min-width: 1024px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--neutral-color-2);
+    }
+
+    .SignUp {
+        width: 930px;
+        padding: 1.5rem 1.5rem 1.5rem 4.5rem;
+        margin: 2rem 0;
+        border-radius: 30px;
+        background-color: var(--white);
+
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        row-gap: 1rem;
+        column-gap: 4.5rem;
+    }
+
+    .SignUp_banner {
+        grid-area: 1 / 2 / 3 / 3;
+    }
+
+    .SignUp_info {
+        margin: 0;
+        align-self: end;
+    }
+
+    .SignUp_form {
+        margin: 0;
+        align-self: start;
+    }
+
+    .SignUp_info h1 {
+        font-size: 3.5rem;
+    }
+}
