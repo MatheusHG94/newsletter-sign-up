@@ -1,9 +1,9 @@
 .Success {
-    margin: 2rem 1.5rem;
+    padding: 1.5rem;
 }
 
 .Success_icon {
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-bottom: 2rem;
 }
 
@@ -13,15 +13,17 @@
 }
 
 .Success p {
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
     color: var(--neutral-color-2);
+    font-size: var(--font-size-paragraph);
     line-height: 1.5;
 }
 
 @media screen and (min-width: 1024px) {
     .Success {
-        width: 400px;
+        width: 500px;
         background-color: var(--white);
+        margin: 2rem 0;
         padding: 3rem;
         border-radius: 30px;
 
@@ -30,13 +32,12 @@
         gap: 1rem;
     }
 
-    .Success *,
-    .Success p {
+    .Success_icon {
         margin: 0;
     }
 
     .Success h1 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 
     .Success p {
