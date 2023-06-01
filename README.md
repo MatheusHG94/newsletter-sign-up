@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/MatheusHG94/newsletter-sign-up)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://newsletter-sign-up-seven.vercel.app/)
 
 ## My process
 
